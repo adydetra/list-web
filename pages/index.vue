@@ -49,6 +49,7 @@
 
               <NuxtLink
                 :to="post.link"
+                target="_blank"
                 :class="[
                   'absolute inset-0 rounded-md',
                   'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2',
