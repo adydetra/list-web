@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-2 sm:px-0">
+  <div class="w-full max-w-6xl mx-auto px-2 sm:px-0">
     <TabGroup>
-      <TabList class="flex space-x-3 lg:space-x-12 rounded-xl bg-blue-900/20 p-1">
+      <TabList class="flex space-x-3 lg:space-x-12 rounded-xl bg-blue-400/20 p-1">
         <Tab
           v-for="category in Object.keys(categories)"
           as="template"
@@ -10,11 +10,11 @@
         >
           <button
             :class="[
-              'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-indigo-400',
-              'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+              'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-yellow-600',
+              'ring-slate-200 ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
               selected
-                ? 'bg-white shadow'
-                : 'text-yellow-300 hover:bg-white/[0.12] hover:text-white',
+                ? 'bg-slate-200 shadow'
+                : 'text-yellow-300 hover:bg-slate-200/[0.12] hover:text-yellow-200',
             ]"
           >
             {{ category }}
@@ -27,15 +27,15 @@
           v-for="(posts, idx) in Object.values(categories)"
           :key="idx"
           :class="[
-            'rounded-xl bg-white p-3',
-            'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+            'rounded-xl bg-slate-300 p-3',
+            'ring-slate-200 ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
           ]"
         >
           <ul>
             <li
               v-for="post in posts"
               :key="post.id"
-              class="relative rounded-md p-3 hover:bg-gray-100"
+              class="relative rounded-md p-3 hover:bg-gray-200"
             >
               <h3 :class="['text-sm font-medium leading-5', post.class]">
                 {{ post.title }}
@@ -96,7 +96,7 @@ const categories = ref({
       id: 1,
       title: "KOSONG",
       link: "",
-      class: "text-red-500",
+      class: "text-red-700 flex justify-center items-center",
     },
   ],
 })
