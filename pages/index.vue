@@ -37,7 +37,7 @@
               :key="post.id"
               class="relative rounded-md p-3 hover:bg-gray-100"
             >
-              <h3 class="text-sm font-medium leading-5">
+              <h3 :class="['text-sm font-medium leading-5', post.class]">
                 {{ post.title }}
               </h3>
 
@@ -90,23 +90,14 @@ const categories = ref({
       link: "https://learningcentreindonesia.com/web/",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
     },
-    // {
-    //   id: 2,
-    //   title: "",
-    //   link: "",
-    // },
   ],
   Team: [
     {
       id: 1,
-      title: "Kosong",
+      title: "KOSONG",
       link: "",
+      class: "text-red-500",
     },
-    // {
-    //   id: 2,
-    //   title: "",
-    //   link: "",
-    // },
   ],
 })
 </script>
