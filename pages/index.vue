@@ -91,7 +91,7 @@ const categories = ref({
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
     },
   ],
-  Working: [
+  Work: [
     {
       id: 1,
       title: "Claim",
