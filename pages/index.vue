@@ -91,12 +91,12 @@ const categories = ref({
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
     },
   ],
-  Team: [
+  Working: [
     {
       id: 1,
-      title: "KOSONG",
-      link: "",
-      class: "text-red-700 flex justify-center items-center",
+      title: "Claim",
+      link: "https://claim.suryaprima.net/",
+      tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
     },
   ],
 })
