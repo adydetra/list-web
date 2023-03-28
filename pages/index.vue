@@ -74,7 +74,7 @@ const categories = ref({
       id: 1,
       title: "Dewa Programming",
       link: "https://dewaprogramming.vercel.app/",
-      tech: "HTML | CSS | Bootstrap 4.6 | JQuery",
+      tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue Js",
     },
     {
       id: 2,
