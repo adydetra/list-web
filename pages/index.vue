@@ -74,7 +74,7 @@ const categories = ref({
       id: 1,
       title: "Dewa Programming",
       link: "https://dewaprogramming.vercel.app/",
-      tech: "HTML | CSS | Bootstrap 4 | JQuery",
+      tech: "HTML | CSS | Bootstrap 4.6 | JQuery",
     },
     {
       id: 2,
@@ -84,11 +84,12 @@ const categories = ref({
     },
   ],
   Client: [
-    // {
-    //   id: 1,
-    //   title: "",
-    //   link: "",
-    // },
+    {
+      id: 1,
+      title: "Learning Centre Indonesia",
+      link: "https://learningcentreindonesia.com/web/",
+      tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
+    },
     // {
     //   id: 2,
     //   title: "",
@@ -96,11 +97,11 @@ const categories = ref({
     // },
   ],
   Team: [
-    // {
-    //   id: 1,
-    //   title: "",
-    //   link: "",
-    // },
+    {
+      id: 1,
+      title: "Kosong",
+      link: "",
+    },
     // {
     //   id: 2,
     //   title: "",
