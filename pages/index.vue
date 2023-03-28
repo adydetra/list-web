@@ -10,11 +10,11 @@
         >
           <button
             :class="[
-              'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-yellow-600',
+              'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-gray-200',
               'ring-slate-200 ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
               selected
-                ? 'bg-slate-200 shadow'
-                : 'text-yellow-300 hover:bg-slate-200/[0.12] hover:text-yellow-200',
+                ? 'bg-slate-200 shadow text-gray-800'
+                : 'text-gray-200 hover:bg-slate-200/[0.12] hover:text-gray-200',
             ]"
           >
             {{ category }}
