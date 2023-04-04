@@ -51,8 +51,20 @@ export default defineNuxtConfig({
       ],
     },
     workbox: {
-      offlineAnalytics: true,
-      offlineStrategy: 'StaleWhileRevalidate',
+      runtimeCaching: [
+        {
+          urlPattern: ({ url }) => {
+            return url.pathname.startsWith("/api");
+          },
+          handler: "CacheFirst" as const,
+          options: {
+            cacheName: "api-cache",
+            cacheableResponse: {
+              statuses: [0, 200],
+            },
+          },
+        },
+      ],
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
     },
