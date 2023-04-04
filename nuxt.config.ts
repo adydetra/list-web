@@ -65,7 +65,7 @@ export default defineNuxtConfig({
           },
         },
       ],
-      navigateFallback: '/',
+      // navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
     },
     devOptions: {
