@@ -51,6 +51,8 @@ export default defineNuxtConfig({
       ],
     },
     workbox: {
+      offlineAnalytics: true,
+      offlineStrategy: 'StaleWhileRevalidate',
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
     },
