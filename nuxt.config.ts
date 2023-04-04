@@ -54,7 +54,7 @@ export default defineNuxtConfig({
       runtimeCaching: [
         {
           urlPattern: ({ url }) => {
-            return url.pathname.startsWith("/api");
+            return url.pathname.startsWith("/");
           },
           handler: "CacheFirst" as const,
           options: {
