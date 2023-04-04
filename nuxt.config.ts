@@ -52,7 +52,7 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: '/',
-      offline: true,
+      globPatterns: ['**/*']
     },
     devOptions: {
       enabled: true,
