@@ -83,9 +83,15 @@ const categories = ref({
       tech: "Nuxt 3 | Tailwind CSS",
     },
     {
-      id: 2,
-      title: "Protem Landing Page",
+      id: 3,
+      title: "Protem Landing Page (Proficiency Test)",
       link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
+      tech: "Vue 3 | Tailwind CSS",
+    },
+    {
+      id: 4,
+      title: "Admin Panel (Proficiency Test)",
+      link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
     },
   ],
