@@ -13,7 +13,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
-    '@vite-pwa/nuxt'
+    '@vite-pwa/nuxt',
+    'nuxt-icon'
   ],
 
   headlessui: {
