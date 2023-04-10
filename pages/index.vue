@@ -82,6 +82,12 @@ const categories = ref({
       link: "https://wangyland.vercel.app/",
       tech: "Nuxt 3 | Tailwind CSS",
     },
+    {
+      id: 2,
+      title: "Protem Landing Page",
+      link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
+      tech: "Vue 3 | Tailwind CSS",
+    },
   ],
   Client: [
     {
