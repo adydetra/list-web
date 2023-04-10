@@ -13,3 +13,11 @@
     </div>
   </div>
 </template>
+
+<style>
+
+.cursor-pointer {
+  @apply hover:-mt-1 hover:text-indigo-300 transition-all duration-100 ease-in-out;
+}
+
+</style>
