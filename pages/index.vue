@@ -74,7 +74,7 @@ const categories = ref({
       id: 1,
       title: "Dewa Programming",
       link: "https://dewaprogramming.vercel.app/",
-      tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue Js",
+      tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
     },
     {
       id: 2,
@@ -93,6 +93,12 @@ const categories = ref({
       title: "Admin Panel (Proficiency Test)",
       link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
+    },
+    {
+      id: 5,
+      title: "Dewa Downloader (MP3 / MP4)",
+      link: "https://dewa-downloader.vercel.app/",
+      tech: "Next 13 | Tailwind CSS",
     },
   ],
   Client: [
