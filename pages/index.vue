@@ -41,7 +41,7 @@
                 <h3 :class="['text-sm font-medium leading-5', post.class]">
                   <Icon :name="post.icon" class="cursor-pointer w-3 h-3 -mt-0.5"/> {{ post.title }}
                 </h3>
-                <p class="hidden lg:flex text-xs space-x-2 font-light text-gray-400">
+                <p class="hidden md:flex text-xs space-x-2 font-light text-gray-400">
                   <Icon :name="post.mobile" class="cursor-pointer w-3 h-3 -mt-0.5"/>
                   <Icon :name="post.desktop" class="cursor-pointer w-3 h-3 -mt-0.5"/>
                   <Icon :name="post.webpwa" class="cursor-pointer w-3 h-3 -mt-0.5"/>
@@ -55,7 +55,7 @@
               </ul>
               
               <ul
-                class="lg:hidden mt-4 md:mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
+                class="md:hidden mt-4 md:mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
               >
                 <li class="space-x-3">
                   <Icon :name="post.mobile" class="cursor-pointer w-3 h-3 -mt-0.5"/>
