@@ -37,14 +37,25 @@
               :key="post.id"
               class="relative rounded-md p-3 hover:bg-gray-200"
             >
-              <h3 :class="['text-sm font-medium leading-5', post.class]">
-                {{ post.title }}
-              </h3>
+              <div class="flex justify-between">
+                <h3 :class="['text-sm font-medium leading-5', post.class]">
+                  # {{ post.title }}
+                </h3>
+                <p class="hidden lg:flex text-xs font-light text-gray-400">
+                  {{ post.device }}
+                </p>
+              </div>
 
               <ul
                 class="mt-1 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
               >
                 <li>{{ post.tech }}</li>
+              </ul>
+              
+              <ul
+                class="lg:hidden mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
+              >
+                <li>{{ post.device }}</li>
               </ul>
 
               <NuxtLink
@@ -75,30 +86,35 @@ const categories = ref({
       title: "Dewa Programming",
       link: "https://dewaprogramming.vercel.app/",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
+      device: "Mobile | Tablet | Desktop",
     },
     {
       id: 2,
       title: "Wangyland | Minecraft SERVER",
       link: "https://wangyland.vercel.app/",
-      tech: "Nuxt 3 | Tailwind CSS",
+      tech: "Nuxt 3 | Tailwind CSS | Vite Js",
+      device: "Mobile | Tablet | Desktop | PWA",
     },
     {
       id: 3,
-      title: "Protem Landing Page (Proficiency Test)",
+      title: "Protem Landing Page",
       link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
+      device: "Mobile | Tablet | Desktop | PWA",
     },
     {
       id: 4,
-      title: "Admin Panel (Proficiency Test)",
+      title: "Admin Panel",
       link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
+      device: "Mobile | Tablet | Desktop",
     },
     {
       id: 5,
       title: "Dewa Downloader (MP3 / MP4)",
       link: "https://dewa-downloader.vercel.app/",
-      tech: "Next 13 | Tailwind CSS",
+      tech: "Next 13 | Tailwind CSS | Vite Js",
+      device: "Mobile | Tablet | Desktop | PWA",
     },
   ],
   Client: [
@@ -107,6 +123,7 @@ const categories = ref({
       title: "Learning Centre Indonesia",
       link: "https://learningcentreindonesia.com/web/",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
+      device: "Mobile | Tablet | Desktop",
     },
   ],
   Work: [
@@ -115,6 +132,7 @@ const categories = ref({
       title: "Claim",
       link: "https://claim.suryaprima.net/",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
+      device: "Mobile | Tablet | Desktop",
     },
   ],
 })
