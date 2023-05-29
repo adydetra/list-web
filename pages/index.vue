@@ -37,25 +37,31 @@
               :key="post.id"
               class="relative rounded-md p-3 hover:bg-gray-200"
             >
-              <div class="flex justify-between">
+              <div class="flex justify-between items-center">
                 <h3 :class="['text-sm font-medium leading-5', post.class]">
-                  # {{ post.title }}
+                  <Icon :name="post.icon" class="cursor-pointer w-3 h-3 -mt-0.5"/> {{ post.title }}
                 </h3>
-                <p class="hidden lg:flex text-xs font-light text-gray-400">
-                  {{ post.device }}
+                <p class="hidden lg:flex text-xs space-x-2 font-light text-gray-400">
+                  <Icon :name="post.mobile" class="cursor-pointer w-3 h-3 -mt-0.5"/>
+                  <Icon :name="post.desktop" class="cursor-pointer w-3 h-3 -mt-0.5"/>
+                  <Icon :name="post.webpwa" class="cursor-pointer w-3 h-3 -mt-0.5"/>
                 </p>
               </div>
 
               <ul
-                class="mt-1 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
+                class="mt-1 flex space-x-1 items-center text-[10px] md:text-xs font-normal leading-4 text-gray-500"
               >
                 <li>{{ post.tech }}</li>
               </ul>
               
               <ul
-                class="lg:hidden mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
+                class="lg:hidden mt-4 md:mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500"
               >
-                <li>{{ post.device }}</li>
+                <li class="space-x-3">
+                  <Icon :name="post.mobile" class="cursor-pointer w-3 h-3 -mt-0.5"/>
+                  <Icon :name="post.desktop" class="cursor-pointer w-3 h-3 -mt-0.5"/>
+                  <Icon :name="post.webpwa" class="cursor-pointer w-3 h-3 -mt-0.5"/>
+                </li>
               </ul>
 
               <NuxtLink
@@ -86,42 +92,60 @@ const categories = ref({
       title: "Dewa Programming",
       link: "https://dewaprogramming.vercel.app/",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
-      device: "Mobile | Tablet | Desktop",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-html",
     },
     {
       id: 2,
       title: "Bang CV",
       link: "https://bangcv.vercel.app/",
       tech: "Next Js 13 | Tailwind CSS",
-      device: "Mobile | Tablet | Desktop",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-light-next",
     },
     {
       id: 3,
       title: "Wangyland | Minecraft SERVER",
       link: "https://wangyland.vercel.app/",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
-      device: "Mobile | Tablet | Desktop | PWA",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "simple-icons:pwa",
+      icon: "vscode-icons:file-type-nuxt",
     },
     {
       id: 4,
       title: "Protem Landing Page",
       link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
-      device: "Mobile | Tablet | Desktop",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-vue",
     },
     {
       id: 5,
       title: "Admin Panel",
       link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
-      device: "Mobile | Tablet | Desktop",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-vue",
     },
     {
       id: 6,
       title: "Dewa Downloader (MP3 / MP4)",
       link: "https://dewa-downloader.vercel.app/",
       tech: "Next Js 13 | Tailwind CSS | Vite Js",
-      device: "Mobile | Tablet | Desktop | PWA",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "simple-icons:pwa",
+      icon: "vscode-icons:file-type-light-next",
     },
   ],
   Client: [
@@ -129,8 +153,11 @@ const categories = ref({
       id: 1,
       title: "Learning Centre Indonesia",
       link: "https://learningcentreindonesia.com/web/",
-      tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
-      device: "Mobile | Tablet | Desktop",
+      tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-blade",
     },
   ],
   Work: [
@@ -138,8 +165,11 @@ const categories = ref({
       id: 1,
       title: "Claim",
       link: "https://claim.suryaprima.net/",
-      tech: "Laravel 8 | Bootstrap 4.6 | JQuery",
-      device: "Mobile | Tablet | Desktop",
+      tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-blade",
     },
   ],
 })
