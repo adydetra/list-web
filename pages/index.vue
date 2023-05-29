@@ -158,6 +158,15 @@ const categories = ref({
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
       icon: "vscode-icons:file-type-blade",
+    },{
+      id: 2,
+      title: "Averroes Unipessoal. Lda",
+      link: "http://averroes.info/",
+      tech: "HTML | CSS | Bootstrap 5.2",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-html",
     },
   ],
   Work: [
