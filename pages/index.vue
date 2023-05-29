@@ -172,13 +172,23 @@ const categories = ref({
   Work: [
     {
       id: 1,
-      title: "Claim",
+      title: "Warranty Claim",
       link: "https://claim.suryaprima.net/",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
       icon: "vscode-icons:file-type-blade",
+    },
+    {
+      id: 2,
+      title: "CRM (Perfex CRM)",
+      link: "https://crm.suryaprima.net/",
+      tech: "CodeIgniter 3 | MySQL",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "logos:codeigniter-icon",
     },
   ],
 })
