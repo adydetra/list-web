@@ -89,7 +89,17 @@ const categories = ref({
   Individual: [
     {
       id: 1,
-      title: "Dewa Programming",
+      title: "Portfolio",
+      link: "https://adityawarman-dewa-putra.vercel.app/",
+      tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "simple-icons:pwa",
+      icon: "vscode-icons:file-type-nuxt",
+    },
+    {
+      id: 2,
+      title: "Old Portfolio",
       link: "https://dewaprogramming.vercel.app/",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
       mobile: "ic:outline-phone-iphone",
@@ -98,7 +108,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-html",
     },
     {
-      id: 2,
+      id: 3,
       title: "Bang CV",
       link: "https://bangcv.vercel.app/",
       tech: "Next Js 13 | Tailwind CSS",
@@ -108,7 +118,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-light-next",
     },
     {
-      id: 3,
+      id: 4,
       title: "Wangyland | Minecraft SERVER",
       link: "https://wangyland.vercel.app/",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
@@ -118,7 +128,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-nuxt",
     },
     {
-      id: 4,
+      id: 5,
       title: "Protem Landing Page",
       link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
@@ -128,7 +138,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-vue",
     },
     {
-      id: 5,
+      id: 6,
       title: "Admin Panel",
       link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
       tech: "Vue 3 | Tailwind CSS",
@@ -138,7 +148,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-vue",
     },
     {
-      id: 6,
+      id: 7,
       title: "Dewa Downloader (MP3 / MP4)",
       link: "https://dewa-downloader.vercel.app/",
       tech: "Next Js 13 | Tailwind CSS | Vite Js",
