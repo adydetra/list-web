@@ -90,7 +90,7 @@ const categories = ref({
     {
       id: 1,
       title: "Portfolio",
-      link: "https://adityawarman-dewa-putra.vercel.app/",
+      link: "https://adityawarman.vercel.app",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -100,7 +100,7 @@ const categories = ref({
     {
       id: 2,
       title: "Old Portfolio",
-      link: "https://dewaprogramming.vercel.app/",
+      link: "https://dewaprogramming.vercel.app",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -110,7 +110,7 @@ const categories = ref({
     {
       id: 3,
       title: "Bang CV",
-      link: "https://bangcv.vercel.app/",
+      link: "https://bangcv.vercel.app",
       tech: "Next Js 13 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -120,7 +120,7 @@ const categories = ref({
     {
       id: 4,
       title: "Wangyland | Minecraft SERVER",
-      link: "https://wangyland.vercel.app/",
+      link: "https://wangyland.vercel.app",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -130,7 +130,7 @@ const categories = ref({
     {
       id: 5,
       title: "Protem Landing Page",
-      link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app/",
+      link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -140,7 +140,7 @@ const categories = ref({
     {
       id: 6,
       title: "Admin Panel",
-      link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app/",
+      link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -150,7 +150,7 @@ const categories = ref({
     {
       id: 7,
       title: "Dewa Downloader (MP3 / MP4)",
-      link: "https://dewa-downloader.vercel.app/",
+      link: "https://dewa-downloader.vercel.app",
       tech: "Next Js 13 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -162,7 +162,7 @@ const categories = ref({
     {
       id: 1,
       title: "Learning Centre Indonesia",
-      link: "https://learningcentreindonesia.com/web/",
+      link: "https://learningcentreindonesia.com/web",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -171,7 +171,7 @@ const categories = ref({
     },{
       id: 2,
       title: "Averroes Unipessoal. Lda",
-      link: "http://averroes.info/",
+      link: "http://averroes.info",
       tech: "HTML | CSS | Bootstrap 5.2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -183,7 +183,7 @@ const categories = ref({
     {
       id: 1,
       title: "Warranty Claim",
-      link: "https://claim.suryaprima.net/",
+      link: "https://claim.suryaprima.net",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -193,7 +193,7 @@ const categories = ref({
     {
       id: 2,
       title: "CRM (Perfex CRM)",
-      link: "https://crm.suryaprima.net/",
+      link: "https://crm.suryaprima.net",
       tech: "CodeIgniter 3 | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
