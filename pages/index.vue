@@ -26,9 +26,9 @@
               <div class="flex justify-between items-center">
                 <h3 :class="['text-sm font-medium leading-5', post.class]"><Icon :name="post.icon" class="cursor-pointer w-3 h-3 -mt-0.5" /> {{ post.title }}</h3>
                 <p class="hidden md:flex text-xs space-x-4 font-light text-gray-400">
-                  <Icon :name="post.mobile" class="cursor-pointer w-3.5 h-3.5 -mt-0.5" />
-                  <Icon :name="post.desktop" class="cursor-pointer w-3.5 h-3.5 -mt-0.5" />
-                  <Icon :name="post.webpwa" class="cursor-pointer w-3.5 h-3.5 -mt-0.5" />
+                  <Icon :name="post.mobile" class="w-3.5 h-3.5" :class="i" />
+                  <Icon :name="post.desktop" class="w-3.5 h-3.5" :class="i" />
+                  <Icon :name="post.webpwa" class="w-3.5 h-3.5" :class="i" />
                 </p>
               </div>
 
@@ -38,13 +38,13 @@
 
               <ul class="md:hidden mt-4 md:mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500">
                 <li class="space-x-3">
-                  <Icon :name="post.mobile" class="cursor-pointer w-3 h-3 -mt-0.5" />
-                  <Icon :name="post.desktop" class="cursor-pointer w-3 h-3 -mt-0.5" />
-                  <Icon :name="post.webpwa" class="cursor-pointer w-3 h-3 -mt-0.5" />
+                  <Icon :name="post.mobile" class="w-3 h-3" :class="i" />
+                  <Icon :name="post.desktop" class="w-3 h-3" :class="i" />
+                  <Icon :name="post.webpwa" class="w-3 h-3" :class="i" />
                 </li>
               </ul>
 
-              <NuxtLink :to="post.link" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
+              <NuxtLink :to="post.to" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
             </li>
           </ul>
         </TabPanel>
@@ -61,12 +61,14 @@ useSeoMeta({
   description: "More Website Dev Dewa",
 });
 
+const i = "cursor-pointer -mt-0.5";
+
 const categories = ref({
   Individual: [
     {
       id: 1,
       title: "Portfolio",
-      link: "https://adityawarman.vercel.app",
+      to: "https://adityawarman.vercel.app",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -76,7 +78,7 @@ const categories = ref({
     {
       id: 2,
       title: "Old Portfolio",
-      link: "https://dewaprogramming.vercel.app",
+      to: "https://dewaprogramming.vercel.app",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -86,7 +88,7 @@ const categories = ref({
     {
       id: 3,
       title: "Bang CV",
-      link: "https://bangcv.vercel.app",
+      to: "https://bangcv.vercel.app",
       tech: "Next Js 13 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -96,7 +98,7 @@ const categories = ref({
     {
       id: 4,
       title: "Wangyland | Minecraft SERVER",
-      link: "https://wangyland.vercel.app",
+      to: "https://wangyland.vercel.app",
       tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -106,7 +108,7 @@ const categories = ref({
     {
       id: 5,
       title: "Protem Landing Page",
-      link: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app",
+      to: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -116,7 +118,7 @@ const categories = ref({
     {
       id: 6,
       title: "Admin Panel",
-      link: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
+      to: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -126,7 +128,7 @@ const categories = ref({
     {
       id: 7,
       title: "Dewa Downloader (MP3 / MP4)",
-      link: "https://dewa-downloader.vercel.app",
+      to: "https://dewa-downloader.vercel.app",
       tech: "Next Js 13 | Tailwind CSS | Vite Js",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -138,7 +140,7 @@ const categories = ref({
     {
       id: 1,
       title: "Learning Centre Indonesia",
-      link: "https://learningcentreindonesia.com/web",
+      to: "https://learningcentreindonesia.com/web",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -148,7 +150,7 @@ const categories = ref({
     {
       id: 2,
       title: "Averroes Unipessoal. Lda",
-      link: "http://averroes.info",
+      to: "http://averroes.info",
       tech: "HTML | CSS | Bootstrap 5.2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -160,7 +162,7 @@ const categories = ref({
     {
       id: 1,
       title: "Warranty Claim",
-      link: "https://claim.suryaprima.net",
+      to: "https://claim.suryaprima.net",
       tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -170,7 +172,7 @@ const categories = ref({
     {
       id: 2,
       title: "CRM (Perfex CRM)",
-      link: "https://crm.suryaprima.net",
+      to: "https://crm.suryaprima.net",
       tech: "CodeIgniter 3 | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
