@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex justify-center gap-8 md:gap-14 lg:gap-28 items-center text-white lg:mb-12 py-12">
     <div class="space-x-8 lg:space-x-20">
-      <NuxtLink to="https://discord.gg/9z6APrYMAq" target="_blank"><Icon name="prime:discord" :class="i" /></NuxtLink>
+      <NuxtLink to="https://discord.gg/9z6APrYMAq" target="_blank"><Icon name="line-md:discord" :class="i" /></NuxtLink>
       <NuxtLink to="https://twitter.com/adydetra" target="_blank"><Icon name="line-md:twitter-x" :class="i" /></NuxtLink>
     </div>
     <div>
