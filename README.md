@@ -1,42 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Dewa Web 🌐
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A list of all my created websites running on (online) hosting. Simple layout, and PWA for easy access.
 
-## Setup
+## Built with
 
-Make sure to install the dependencies:
+- [Nuxt](https://nuxt.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-```bash
-# yarn
-yarn install
+## Author
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<a href="https://github.com/devdewa/dewa-web">
+  <img src="https://contrib.rocks/image?repo=devdewa/dewa-web" />
+</a>
