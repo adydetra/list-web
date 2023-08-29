@@ -67,9 +67,9 @@ const categories = ref({
   Individual: [
     {
       id: 1,
-      title: "Portfolio",
+      title: "Personal Site",
       to: "https://adityawarman.vercel.app",
-      tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
+      tech: "Nuxt Js 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "simple-icons:pwa",
@@ -77,7 +77,7 @@ const categories = ref({
     },
     {
       id: 2,
-      title: "Old Portfolio",
+      title: "Old Personal Site",
       to: "https://dewaprogramming.vercel.app",
       tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
       mobile: "ic:outline-phone-iphone",
