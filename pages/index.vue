@@ -44,7 +44,7 @@
                 </li>
               </ul>
 
-              <NuxtLink :to="post.to" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
+              <NuxtLink :to="post.to" alt="" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
             </li>
           </ul>
         </TabPanel>
