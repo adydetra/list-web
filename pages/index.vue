@@ -57,6 +57,10 @@
 import { ref } from "vue";
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
 
+useSeoMeta({
+  description: "More Website Dev Dewa",
+});
+
 const categories = ref({
   Individual: [
     {
