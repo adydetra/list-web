@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Dewa Web",
+      title: "List Web",
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       htmlAttrs: {
@@ -19,8 +19,8 @@ export default defineNuxtConfig({
   pwa: {
     registerType: "autoUpdate",
     manifest: {
-      name: "Dewa Web",
-      short_name: "Dewa Web",
+      name: "List Web",
+      short_name: "List Web",
       theme_color: "#0f172a",
       background_color: "#0f172a",
       icons: [
