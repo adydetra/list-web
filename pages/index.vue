@@ -44,7 +44,7 @@
                 </li>
               </ul>
 
-              <NuxtLink :to="post.to" alt="" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
+              <NuxtLink :to="post.to" alt="" aria-label="Content" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
             </li>
           </ul>
         </TabPanel>
@@ -58,7 +58,7 @@ import { ref } from "vue";
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
 
 useSeoMeta({
-  description: "More Website Dev Dewa",
+  description: "A list of all my created websites running on (online) hosting. Simple layout, and PWA for easy access. ",
 });
 
 const i = "cursor-pointer -mt-0.5";
@@ -68,18 +68,18 @@ const categories = ref({
     {
       id: 1,
       title: "Personal Site",
-      to: "https://adityawarman.vercel.app",
-      tech: "Nuxt Js 3 | Tailwind CSS",
+      to: "https://adydetra.my.id",
+      tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
-      webpwa: "simple-icons:pwa",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
       icon: "vscode-icons:file-type-nuxt",
     },
     {
       id: 2,
       title: "Old Personal Site",
       to: "https://dewaprogramming.vercel.app",
-      tech: "HTML | CSS | Bootstrap 4.6 | JQuery | Vue 2",
+      tech: "HTML | CSS | Bootstrap 4.6 | jQuery | Vue 2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
@@ -89,7 +89,7 @@ const categories = ref({
       id: 3,
       title: "Bang CV",
       to: "https://bangcv.vercel.app",
-      tech: "Next Js 13 | Tailwind CSS",
+      tech: "Next | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
@@ -99,10 +99,10 @@ const categories = ref({
       id: 4,
       title: "Wangyland | Minecraft SERVER",
       to: "https://wangyland.vercel.app",
-      tech: "Nuxt Js 3 | Tailwind CSS | Vite Js",
+      tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
-      webpwa: "simple-icons:pwa",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
       icon: "vscode-icons:file-type-nuxt",
     },
     {
@@ -127,13 +127,14 @@ const categories = ref({
     },
     {
       id: 7,
-      title: "Dewa Downloader (MP3 / MP4)",
-      to: "https://dewa-downloader.vercel.app",
-      tech: "Next Js 13 | Tailwind CSS | Vite Js",
+      title: "Insta",
+      to: "https://insta.adydetra.my.id",
+      tech: "Next | Tailwind CSS | Vite Js",
+      tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
-      webpwa: "simple-icons:pwa",
-      icon: "vscode-icons:file-type-light-next",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-nuxt",
     },
   ],
   Client: [
@@ -141,7 +142,7 @@ const categories = ref({
       id: 1,
       title: "Learning Centre Indonesia",
       to: "https://learningcentreindonesia.com/web",
-      tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
+      tech: "Laravel 8 | Bootstrap 4.6 | jQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
@@ -163,7 +164,7 @@ const categories = ref({
       id: 1,
       title: "Warranty Claim",
       to: "https://claim.suryaprima.net",
-      tech: "Laravel 8 | Bootstrap 4.6 | JQuery | MySQL",
+      tech: "Laravel 8 | Bootstrap 4.6 | jQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
