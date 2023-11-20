@@ -45,7 +45,7 @@
               </ul>
 
               <NuxtLink
-                :to="post.to"
+                :to="'https://' + post.to"
                 alt=""
                 aria-label="Content"
                 target="_blank"
@@ -74,7 +74,7 @@ const categories = ref({
     {
       id: 1,
       title: "Personal Site",
-      to: "https://adydetra.my.id",
+      to: "adydetra.my.id",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -84,7 +84,7 @@ const categories = ref({
     {
       id: 2,
       title: "Wangyland",
-      to: "https://wangyland.vercel.app",
+      to: "wangyland.vercel.app",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -94,8 +94,8 @@ const categories = ref({
     {
       id: 3,
       title: "Protem",
-      to: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app",
-      tech: "Vue 3 | Tailwind CSS",
+      to: "pt-teknologi-pustaka-indonesia-buku.vercel.app",
+      tech: "Vue | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
@@ -104,8 +104,8 @@ const categories = ref({
     {
       id: 4,
       title: "Admin Panel",
-      to: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
-      tech: "Vue 3 | Tailwind CSS",
+      to: "pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
+      tech: "Vue | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
       webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
@@ -114,7 +114,7 @@ const categories = ref({
     {
       id: 5,
       title: "Insta",
-      to: "https://insta.adydetra.my.id",
+      to: "insta.adydetra.my.id",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -124,7 +124,7 @@ const categories = ref({
     {
       id: 6,
       title: "Games",
-      to: "https://games.adydetra.my.id",
+      to: "games.adydetra.my.id",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -136,7 +136,7 @@ const categories = ref({
     {
       id: 1,
       title: "Learning Centre Indonesia",
-      to: "https://learningcentreindonesia.com/web",
+      to: "learningcentreindonesia.com/web",
       tech: "Laravel 8 | Bootstrap 4.6 | jQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -146,7 +146,7 @@ const categories = ref({
     {
       id: 2,
       title: "Averroes Unipessoal. Lda",
-      to: "http://averroes.info",
+      to: "averroes.info",
       tech: "HTML | CSS | Bootstrap 5.2",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -158,7 +158,7 @@ const categories = ref({
     {
       id: 1,
       title: "Warranty Claim",
-      to: "https://claim.suryaprima.net",
+      to: "claim.suryaprima.net",
       tech: "Laravel 8 | Bootstrap 4.6 | jQuery | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
@@ -168,7 +168,7 @@ const categories = ref({
     {
       id: 2,
       title: "CRM (Perfex CRM)",
-      to: "https://crm.suryaprima.net",
+      to: "crm.suryaprima.net",
       tech: "CodeIgniter 3 | MySQL",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
