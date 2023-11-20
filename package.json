@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "list-web",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -11,12 +11,9 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.9.4",
     "@vite-pwa/nuxt": "^0.2.3",
-    "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.1",
     "nuxt-headlessui": "^1.1.4",
-    "nuxt-icon": "^0.6.6",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5"
+    "nuxt-icon": "^0.6.6"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16",

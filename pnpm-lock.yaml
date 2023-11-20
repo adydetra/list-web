@@ -19,9 +19,6 @@ devDependencies:
   '@vite-pwa/nuxt':
     specifier: ^0.2.3
     version: 0.2.3(@nuxt/kit@3.8.1)(vite-plugin-pwa@0.16.7)
-  autoprefixer:
-    specifier: ^10.4.16
-    version: 10.4.16(postcss@8.4.31)
   nuxt:
     specifier: ^3.8.1
     version: 3.8.1(rollup@2.79.1)(vite@4.5.0)
@@ -31,12 +28,6 @@ devDependencies:
   nuxt-icon:
     specifier: ^0.6.6
     version: 0.6.6(nuxt@3.8.1)(rollup@2.79.1)(vite@4.5.0)(vue@3.3.8)
-  postcss:
-    specifier: ^8.4.31
-    version: 8.4.31
-  tailwindcss:
-    specifier: ^3.3.5
-    version: 3.3.5
 
 packages:
 
@@ -2340,6 +2331,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -6046,6 +6038,10 @@ packages:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
+    dev: true
+
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
     dev: true
 
   /negotiator@0.6.3:
