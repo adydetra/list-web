@@ -44,7 +44,14 @@
                 </li>
               </ul>
 
-              <NuxtLink :to="post.to" alt="" aria-label="Content" target="_blank" :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"> </NuxtLink>
+              <NuxtLink
+                :to="post.to"
+                alt=""
+                aria-label="Content"
+                target="_blank"
+                :class="['absolute inset-0 rounded-md', 'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2']"
+              >
+              </NuxtLink>
             </li>
           </ul>
         </TabPanel>
@@ -76,17 +83,7 @@ const categories = ref({
     },
     {
       id: 2,
-      title: "Bang CV",
-      to: "https://bangcv.vercel.app",
-      tech: "Next | Tailwind CSS",
-      mobile: "ic:outline-phone-iphone",
-      desktop: "ic:outline-desktop-windows",
-      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
-      icon: "vscode-icons:file-type-light-next",
-    },
-    {
-      id: 3,
-      title: "Wangyland | Minecraft SERVER",
+      title: "Wangyland",
       to: "https://wangyland.vercel.app",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
@@ -95,8 +92,8 @@ const categories = ref({
       icon: "vscode-icons:file-type-nuxt",
     },
     {
-      id: 4,
-      title: "Protem Landing Page",
+      id: 3,
+      title: "Protem",
       to: "https://pt-teknologi-pustaka-indonesia-buku.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
@@ -105,7 +102,7 @@ const categories = ref({
       icon: "vscode-icons:file-type-vue",
     },
     {
-      id: 5,
+      id: 4,
       title: "Admin Panel",
       to: "https://pt-teknologi-pustaka-indonesia-admin-panel.vercel.app",
       tech: "Vue 3 | Tailwind CSS",
@@ -115,14 +112,23 @@ const categories = ref({
       icon: "vscode-icons:file-type-vue",
     },
     {
-      id: 6,
+      id: 5,
       title: "Insta",
       to: "https://insta.adydetra.my.id",
-      tech: "Next | Tailwind CSS | Vite Js",
       tech: "Nuxt | Tailwind CSS",
       mobile: "ic:outline-phone-iphone",
       desktop: "ic:outline-desktop-windows",
-      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      webpwa: "simple-icons:pwa",
+      icon: "vscode-icons:file-type-nuxt",
+    },
+    {
+      id: 6,
+      title: "Games",
+      to: "https://games.adydetra.my.id",
+      tech: "Nuxt | Tailwind CSS",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "simple-icons:pwa",
       icon: "vscode-icons:file-type-nuxt",
     },
   ],
