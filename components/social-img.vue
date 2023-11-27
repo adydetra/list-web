@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const i = "cursor-pointer w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6";
+</script>
+
 <template>
   <div class="container mx-auto flex justify-center gap-8 md:gap-14 lg:gap-28 items-center text-white lg:mb-12 py-12">
     <div class="space-x-8 lg:space-x-20">
@@ -19,7 +23,3 @@
   @apply hover:-mt-1 hover:text-indigo-300 transition-all duration-100 ease-in-out;
 }
 </style>
-
-<script lang="ts" setup>
-const i = "cursor-pointer w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6";
-</script>
