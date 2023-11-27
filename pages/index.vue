@@ -69,6 +69,16 @@ const categories = ref({
       webpwa: "simple-icons:pwa",
       icon: "vscode-icons:file-type-nuxt",
     },
+    {
+      id: 7,
+      title: "Blog",
+      to: "blog.adydetra.my.id",
+      tech: "Nuxt | Tailwind CSS",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "simple-icons:pwa",
+      icon: "vscode-icons:file-type-nuxt",
+    },
   ],
   Client: [
     {
