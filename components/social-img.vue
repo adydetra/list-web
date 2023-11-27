@@ -1,19 +1,29 @@
 <script lang="ts" setup>
 const i = "cursor-pointer w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6";
+const socialOne = [
+  { icon: "line-md:discord", label: "Discord", to: "discord.gg/9z6APrYMAq" },
+  { icon: "line-md:twitter-x", label: "Twitter", to: "twitter.com/adydetra" },
+];
+const socialTwo = [
+  { icon: "line-md:github-loop", label: "GitHub", to: "github.com.adydetra" },
+  { icon: "line-md:mastodon", label: "Mastodon", to: "mastodon.social/@adityawarman" },
+];
 </script>
 
 <template>
   <div class="container mx-auto flex justify-center gap-8 md:gap-14 lg:gap-28 items-center text-white lg:mb-12 py-12">
     <div class="space-x-8 lg:space-x-20">
-      <NuxtLink to="https://discord.gg/9z6APrYMAq" aria-label="Discord" alt="" target="_blank"><Icon name="line-md:discord" :class="i" /></NuxtLink>
-      <NuxtLink to="https://twitter.com/adydetra" aria-label="Twitter" alt="" target="_blank"><Icon name="line-md:twitter-x" :class="i" /></NuxtLink>
+      <NuxtLink v-for="(socials, index) in socialOne" :key="index" :to="'https://' + socials.to" :aria-label="socials.label" alt="" target="_blank">
+        <Icon :name="social.icon" :class="i" />
+      </NuxtLink>
     </div>
     <div>
       <img src="/logo.png" alt="logo" class="w-20 lg:w-32 h-full mx-auto rounded-full hover:rounded-3xl" />
     </div>
     <div class="space-x-8 lg:space-x-20">
-      <NuxtLink to="https://github.com/adydetra" aria-label="GitHub" alt="" target="_blank"><Icon name="line-md:github-loop" :class="i" /></NuxtLink>
-      <NuxtLink to="https://mastodon.social/@adityawarman" aria-label="Mastodon" alt="" target="_blank"><Icon name="line-md:mastodon" :class="i" /></NuxtLink>
+      <NuxtLink v-for="(socials, index) in socialTwo" :key="index" :to="'https://' + socials.to" :aria-label="socials.label" alt="" target="_blank">
+        <Icon :name="social.icon" :class="i" />
+      </NuxtLink>
     </div>
   </div>
 </template>
