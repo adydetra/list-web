@@ -14,7 +14,7 @@ const socialTwo = [
   <div class="container mx-auto flex justify-center gap-8 md:gap-14 lg:gap-28 items-center text-white lg:mb-12 py-12">
     <div class="space-x-8 lg:space-x-20">
       <NuxtLink v-for="(socials, index) in socialOne" :key="index" :to="'https://' + socials.to" :aria-label="socials.label" alt="" target="_blank">
-        <Icon :name="social.icon" :class="i" />
+        <Icon :name="socials.icon" :class="i" />
       </NuxtLink>
     </div>
     <div>
@@ -22,7 +22,7 @@ const socialTwo = [
     </div>
     <div class="space-x-8 lg:space-x-20">
       <NuxtLink v-for="(socials, index) in socialTwo" :key="index" :to="'https://' + socials.to" :aria-label="socials.label" alt="" target="_blank">
-        <Icon :name="social.icon" :class="i" />
+        <Icon :name="socials.icon" :class="i" />
       </NuxtLink>
     </div>
   </div>
