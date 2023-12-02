@@ -1,0 +1,11 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true
+    }
+  ],
+  "dependencyDashboard": false,
+  "platformAutomerge": true
+}
