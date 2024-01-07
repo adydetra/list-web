@@ -1,14 +1,9 @@
-# Dewa Web 🌐
+# List Web 🎏
+
+![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
 
 A list of all my created websites running on (online) hosting. Simple layout, and PWA for easy access.
 
-## Built with
+## License
 
-- [Nuxt](https://nuxt.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## Author
-
-<a href="https://github.com/devdewa/dewa-web">
-  <img src="https://contrib.rocks/image?repo=devdewa/dewa-web" />
-</a>
+The code is licensed [MIT](LICENSE)
