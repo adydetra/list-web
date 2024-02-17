@@ -89,6 +89,16 @@ const categories = ref({
       webpwa: "simple-icons:pwa",
       icon: "vscode-icons:file-type-nuxt",
     },
+    {
+      id: 9,
+      title: "Legoas",
+      to: "legoas.vercel.app",
+      tech: "Vue | PrimeVue",
+      mobile: "ic:outline-phone-iphone",
+      desktop: "ic:outline-desktop-windows",
+      webpwa: "streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network",
+      icon: "vscode-icons:file-type-vue",
+    },
   ],
   Client: [
     {
