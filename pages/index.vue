@@ -173,11 +173,11 @@ const categories = ref({
           <ul>
             <li v-for="post in posts" :key="post.id" class="relative rounded-md p-3 hover:bg-gray-200">
               <div class="flex justify-between items-center">
-                <h3 :class="['text-sm font-medium leading-5', post.class]"><Icon :name="post.icon" class="cursor-pointer w-3 h-3 -mt-0.5" /> {{ post.title }}</h3>
+                <h3 :class="['text-sm font-medium leading-5', post.class]"><Icon :name="post.icon" class="cursor-pointer size-3 -mt-0.5" /> {{ post.title }}</h3>
                 <p class="hidden md:flex text-xs space-x-4 font-light text-gray-400">
-                  <Icon :name="post.mobile" class="w-3.5 h-3.5" :class="i" />
-                  <Icon :name="post.desktop" class="w-3.5 h-3.5" :class="i" />
-                  <Icon :name="post.webpwa" class="w-3.5 h-3.5" :class="i" />
+                  <Icon :name="post.mobile" class="size-3.5" :class="i" />
+                  <Icon :name="post.desktop" class="size-3.5" :class="i" />
+                  <Icon :name="post.webpwa" class="size-3.5" :class="i" />
                 </p>
               </div>
 
@@ -187,9 +187,9 @@ const categories = ref({
 
               <ul class="md:hidden mt-4 md:mt-5 opacity-50 flex space-x-1 items-center text-xs font-normal leading-4 text-gray-500">
                 <li class="space-x-3">
-                  <Icon :name="post.mobile" class="w-3 h-3" :class="i" />
-                  <Icon :name="post.desktop" class="w-3 h-3" :class="i" />
-                  <Icon :name="post.webpwa" class="w-3 h-3" :class="i" />
+                  <Icon :name="post.mobile" class="size-3" :class="i" />
+                  <Icon :name="post.desktop" class="size-3" :class="i" />
+                  <Icon :name="post.webpwa" class="size-3" :class="i" />
                 </li>
               </ul>
 

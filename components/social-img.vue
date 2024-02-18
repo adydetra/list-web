@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const i = "cursor-pointer w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6";
+const i = "cursor-pointer size-4 md:size-5 lg:size-6";
 const socialOne = [
   { icon: "line-md:discord", label: "Discord", to: "discord.gg/9z6APrYMAq" },
   { icon: "line-md:twitter-x", label: "Twitter", to: "twitter.com/adydetra" },
