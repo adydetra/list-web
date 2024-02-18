@@ -32,7 +32,7 @@ const categories = ref({
     {
       id: 3,
       title: 'Protem',
-      to: 'pt-teknologi-pustaka-indonesia-buku.vercel.app',
+      to: 'tpi-protem.vercel.app',
       tech: 'Vue | Tailwind CSS',
       mobile: 'ic:outline-phone-iphone',
       desktop: 'ic:outline-desktop-windows',
@@ -42,7 +42,7 @@ const categories = ref({
     {
       id: 4,
       title: 'Admin Panel',
-      to: 'pt-teknologi-pustaka-indonesia-admin-panel.vercel.app',
+      to: 'tpi-admin.vercel.app',
       tech: 'Vue | Tailwind CSS',
       mobile: 'ic:outline-phone-iphone',
       desktop: 'ic:outline-desktop-windows',
