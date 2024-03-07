@@ -18,7 +18,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@vite-pwa/nuxt": "^0.5.0",
+    "@vite-pwa/nuxt": "^0.6.0",
     "eslint": "^8.56.0",
     "nuxt": "^3.10.2",
     "nuxt-headlessui": "^1.1.5",
