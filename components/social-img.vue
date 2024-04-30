@@ -1,11 +1,11 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 const i = 'cursor-pointer size-4 md:size-5 lg:size-6';
 const socialOne = [
   { icon: 'line-md:discord', label: 'Discord', to: 'discord.gg/9z6APrYMAq' },
   { icon: 'line-md:twitter-x', label: 'Twitter', to: 'twitter.com/adydetra' },
 ];
 const socialTwo = [
-  { icon: 'line-md:github-loop', label: 'GitHub', to: 'github.com.adydetra' },
+  { icon: 'line-md:github-loop', label: 'GitHub', to: 'github.com/adydetra' },
   { icon: 'line-md:mastodon', label: 'Mastodon', to: 'mastodon.social/@adityawarman' },
 ];
 </script>
