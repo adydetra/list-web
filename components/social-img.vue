@@ -6,7 +6,7 @@ const socialOne = [
 ];
 const socialTwo = [
   { icon: 'line-md:github-loop', label: 'GitHub', to: 'github.com/adydetra' },
-  { icon: 'line-md:mastodon', label: 'Mastodon', to: 'mastodon.social/@adityawarman' },
+  { icon: 'line-md:mastodon', label: 'Mastodon', to: 'elk.zone/mastodon.social/@adityawarman' },
 ];
 </script>
 
