@@ -99,6 +99,16 @@ const categories = ref({
       webpwa: 'streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network',
       icon: 'vscode-icons:file-type-vue',
     },
+    {
+      id: 10,
+      title: 'iKnowYourPain',
+      to: 'numon.adydetra.my.id',
+      tech: 'Nuxt | UnoCSS',
+      mobile: 'ic:outline-phone-iphone',
+      desktop: 'ic:outline-desktop-windows',
+      webpwa: 'streamline:programming-web-server-world-internet-earth-www-globe-worldwide-web-network',
+      icon: 'vscode-icons:file-type-nuxt',
+    },
   ],
   Client: [
     {
