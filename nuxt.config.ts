@@ -10,6 +10,8 @@ export default defineNuxtConfig({
     },
   },
 
+  srcDir: 'src/',
+
   modules: ['@nuxtjs/tailwindcss', 'nuxt-headlessui', 'nuxt-icon', '@vite-pwa/nuxt'],
 
   headlessui: {
