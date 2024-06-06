@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/vue';
 
 useSeoMeta({
@@ -181,7 +181,7 @@ const categories = ref({
           <ul>
             <li v-for="post in posts" :key="post.id" class="relative rounded-md p-3 hover:bg-gray-200">
               <div class="flex justify-between items-center">
-                <h3 class="text-sm font-medium leading-5" :class="[post.class]">
+                <h3 class="text-sm font-medium leading-5">
                   <Icon :name="post.icon" class="cursor-pointer size-3 -mt-0.5" /> {{ post.title }}
                 </h3>
                 <p class="hidden md:flex text-xs space-x-4 font-light text-gray-400">
